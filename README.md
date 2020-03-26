@@ -12,6 +12,7 @@ Duplicated or originated use cases of network analysis.
 
 ## Tools:
 Codes and tools used for data mining and community detection.
+#### [gephi](https://gephi.org/)
 #### [twitterscraper](https://github.com/taspinar/twitterscraper)
 #### [twint](https://github.com/twintproject/twint)
 ## Results:
