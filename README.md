@@ -1,6 +1,6 @@
-#Software-Engineering-tools-for-Network-Analysis
-##Tools found, used or developed for network analysis
-##This is mainly for the project course COSC 3P99 at Brock University
+#Software-Engineering-tools-for-Network-Analysis#
+##Tools found, used or developed for network analysis##
+##This is mainly for the project course COSC 3P99 at Brock University##
 ###By: Ji Wang
 ###SID: 6354666
 ###Supervisor: Naser Ezzati-Jivan
