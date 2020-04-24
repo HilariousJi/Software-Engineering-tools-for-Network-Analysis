@@ -9,4 +9,4 @@ twint.run.Search(c)
 tweets = twint.output.tweets_list
 with open('tweets_location.csv', 'w') as output:
     for t in tweets:
-        output.write('{},{}\n'.format(t.username, t.geo))
+        output.write('{},{}\n'.format(t.username, t.near))
