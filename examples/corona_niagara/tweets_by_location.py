@@ -7,6 +7,6 @@ c.Store_object = True
 #c.Hide_output = True
 twint.run.Search(c)
 tweets = twint.output.tweets_list
-with open('tweets_location.csv', 'w') as output:
+with open('tweets_location_test.csv', 'w') as output:
     for t in tweets:
         output.write('{},{}\n'.format(t.username, t.near))
