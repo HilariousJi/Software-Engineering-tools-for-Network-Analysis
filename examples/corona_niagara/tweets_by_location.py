@@ -14,13 +14,13 @@ tweets = twint.output.tweets_list
 #userList = []
 #userFollowing = []
 #finalList = []
-userSet = set()
-
+userSet = []
 with open('tweets_location_test.csv', 'w') as output:
     for tw in tweets:
-        userSet.add(tw.username)
-        for us in userSet:
-            output.write('{}\n'.format(us))
+        userSet.append(tw.username)
+    userSet = list(dict.fromkeys(userSet))
+    for us in userSet:
+        output.write('{}\n'.format(us))
     for u in userSet:
         c.Limit = 60
         c.Username = u
