@@ -15,3 +15,14 @@ http://www.martingrandjean.ch/gephi-introduction/
 https://www.tandfonline.com/doi/full/10.1080/23311983.2016.1171458
 
 https://noduslabs.com/cases/learn-read-interpret-network-graphs-data-visualization/
+
+https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python
+
+https://medium.com/@EthnographicMachines/visual-network-analysis-with-gephi-d6241127a336
+
+https://socilyzer.com/guide/interpret-social-network-diagram
+
+https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/
+
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007434
+
