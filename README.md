@@ -16,7 +16,9 @@ Codes and tools used for data mining and community detection.
 #### [twitter streaming importer](https://gephi.org/plugins/#/plugin/twitter-streaming-importer)
 #### [twitterscraper](https://github.com/taspinar/twitterscraper)
 #### [twint](https://github.com/twintproject/twint)
+
 ## scripts:
 Various EASE scripts used for the network analysis of inter-process interactions
+
 ## Results:
 Final output.
