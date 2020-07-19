@@ -1,0 +1,17 @@
+{
+    "wordTracking": [
+        "coronavirus"
+    ],
+    "userTracking": {},
+    "locationsTracking": [
+        {
+            "id": "niagara",
+            "name": "niagara",
+            "neLat": 43.270949,
+            "neLong": -79.024063,
+            "swLat": 42.876711,
+            "swLong": -79.452529
+        }
+    ],
+    "languageFilter": []
+}

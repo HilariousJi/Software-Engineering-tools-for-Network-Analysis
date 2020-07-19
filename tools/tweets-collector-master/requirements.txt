@@ -1,0 +1,9 @@
+preprocessor
+pandas
+xlsxwriter
+twython
+nltk
+tweet-preprocessor
+alphabet-detector
+tweepy
+argcomplete
