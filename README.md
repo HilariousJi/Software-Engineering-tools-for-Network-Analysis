@@ -1,9 +1,9 @@
 # Software-Engineering-tools-for-Network-Analysis
-### Tools found, used or developed for network analysis
-### This project was originally for the project course COSC 3P99 at Brock University.
-### Now it has come to be a research project under the supervision of Professor Ezzati-Jivan
-### By: Ji Wang
-### Supervisor: Naser Ezzati-Jivan
+## Tools found, used or developed for network analysis
+#### This project was originally for the project course COSC 3P99 at Brock University.
+#### Now it has come to be a research project under the supervision of Professor Ezzati-Jivan.
+#### By: Ji Wang
+#### Supervisor: Naser Ezzati-Jivan
 ## Articles:
 Both academic and web-posting articles found and read throughout the project.
 
@@ -18,7 +18,7 @@ Codes and tools used for data mining and community detection.
 #### [twint](https://github.com/twintproject/twint)
 
 ## scripts:
-Various EASE scripts used for the network analysis of inter-process interactions
+Various EASE scripts used for the network analysis of inter-process interactions.
 
 ## Results:
 Final output.
