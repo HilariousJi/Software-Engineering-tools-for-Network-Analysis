@@ -37,8 +37,10 @@ function addTidToArray(arr, tid) {
     }
     arr.push(tid);
 }
-
+print("Extracting metrics...")
+var ts_start = new Date().getTime();
 var numCPU = 0;
+var eventCounter = 0;
 // Parse all events
 while (iter.hasNext()) {
     event = iter.next();
@@ -46,9 +48,11 @@ while (iter.hasNext()) {
         if (numCPU < getEventFieldValue(event, "CPU")) {
             numCPU = getEventFieldValue(event, "CPU")
         }
+        eventCounter++;
         // get ptid of each active thread and create a list/array/dictionary    
     }
 }
+print("The sched_switch event occurs " + eventCounter + " times.");
 iter = analysis.getEventIterator();
 event = null;
 var tids = new Array(numCPU + 1)
@@ -118,11 +122,13 @@ for (i = 0; i < source.length; i++) {
 print("Creating node matrix...")
 if (bufferedWriter != null) {
     bufferedWriter.close();
-    print("Done.")
 }
+var ts_end = new Date().getTime();
+var ts = ts_end - ts_start
+print("Time elapsed to extract metrics from trace: " + ts + " ms")
 // Pagerank Algorithm
 //call this for each cpu separately //fixme
-print("Starting pageranking...")
+print("Starting network analysis...")
 var out = new Array();
 for (i = 0; i < tid_set.length; i++) {
     out[tid_set[i]] = 0;
